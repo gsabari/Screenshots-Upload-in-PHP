@@ -1,5 +1,5 @@
 <?php
-    define('UPLOAD_DIR', 'images/');
+    define('UPLOAD_DIR', '/');
     $image_parts = explode(";base64,", $_REQUEST['image']);
     $image_type_aux = explode("image/", $image_parts[0]);
     $image_type = $image_type_aux[1];
